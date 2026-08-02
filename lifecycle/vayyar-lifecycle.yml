@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://site.walabot.com/archive/
+versioning:
+  scheme: semantic (MAJOR.MINOR.PATCH) with dated installer builds
+  current: 1.2.2
+  current_released: '2018-08-26'
+  docs: https://site.walabot.com/getting-started/
+  notes: >-
+    The Walabot SDK / Walabot API is versioned semantically; installers carry a
+    build date (e.g. WalabotSDK_2018.08.26_v1.2.2). Older versions remain
+    downloadable from the public SDK archive. No new SDK release has been
+    published since v1.2.2 (2018) — the maker program is in maintenance mode
+    while Vayyar focuses on Vayyar Care and automotive OEM programs.
+archive: https://site.walabot.com/archive/
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation policy; old SDK versions are archived, not sunset.
+sla: null
+status_page: null
+deprecated_operations: []

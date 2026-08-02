@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://vayyar.com/quality/
+notes: >-
+  Vayyar publishes a formal Quality Policy page naming its certifications and
+  the standards its automotive radar-on-chip development follows. Vayyar has
+  no public web API, so API-level standards (OAuth2, OIDC, JSON:API, RFC 9457,
+  pagination, idempotency) are not applicable rather than failed.
+standards:
+- id: iso-9001-2015
+  conforms: true
+  evidence: 'Quality Policy page (https://vayyar.com/quality/) states ISO 9001:2015 certification.'
+- id: iatf-16949
+  conforms: true
+  evidence: 'Quality Policy page (https://vayyar.com/quality/) cites IATF 16949 automotive quality management.'
+- id: iso-26262
+  conforms: true
+  evidence: 'Quality Policy page (https://vayyar.com/quality/) cites ISO 26262 automotive functional safety.'
+- id: oauth2
+  conforms: false
+  evidence: No public web API or OAuth surface published.
+- id: oidc
+  conforms: false
+  evidence: /.well-known/openid-configuration returns 404; no published identity provider.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public HTTP API; not applicable.

@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: https://site.walabot.com/getting-started/
+notes: >-
+  Vayyar's developer surface is the Walabot device SDK (Walabot API) for the
+  Walabot Maker/Creator/Developer packs, distributed as vendor installers from
+  Vayyar's own S3 bucket rather than public package registries. Searches of
+  npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, and
+  crates.io on 2026-07-21 found no first-party Vayyar/Walabot packages (the
+  WalabotAPI Python module ships inside the SDK installers; Vayyar's historical
+  pip index at https://api.walabot.com/wlbt/pip/ now returns 403).
+packages:
+- language: c
+  registry: vendor
+  name: WalabotSDK (Windows)
+  version: 1.2.2
+  url: https://s3.eu-central-1.amazonaws.com/walabot/WalabotInstaller/Latest/WalabotSDK_2018.08.26_v1.2.2.exe
+  install: Download and run WalabotSDK_2018.08.26_v1.2.2.exe (includes API tutorial application and sample code)
+  official: true
+- language: c
+  registry: vendor
+  name: WalabotSDK (Linux x64)
+  version: 1.2.2
+  url: https://s3.eu-central-1.amazonaws.com/walabot/WalabotInstaller/Latest/WalabotSDK_2018.08.26_v1.2.2_Linux64.deb
+  install: sudo dpkg -i WalabotSDK_2018.08.26_v1.2.2_Linux64.deb
+  official: true
+- language: c
+  registry: vendor
+  name: WalabotSDK (Raspberry Pi 3)
+  version: 1.2.2
+  url: https://s3.eu-central-1.amazonaws.com/walabot/WalabotInstaller/Latest/WalabotSDK_2018.09.02_v1.2.2_RPi.deb
+  install: sudo dpkg -i WalabotSDK_2018.09.02_v1.2.2_RPi.deb
+  official: true
+registries_searched:
+- registry: npm
+  query: vayyar, walabot
+  result: none
+- registry: pypi
+  query: WalabotAPI
+  result: 404 (package distributed inside SDK installers, not on PyPI)
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: rubygems
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none
+examples:
+  github_org: https://github.com/Walabot-Projects
+  note: 18 first-party example applications (Python/C++/Java) built on the Walabot API.

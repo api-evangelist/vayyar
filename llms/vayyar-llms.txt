@@ -1,0 +1,32 @@
+# Vayyar
+
+> Vayyar Imaging is an Israeli 4D imaging radar company. Its radio-frequency sensor-on-chip powers Vayyar Care (privacy-safe fall detection and activity monitoring for senior care), in-cabin automotive sensing for OEMs, and the Walabot product line — including the Walabot DIY wall scanner and the Walabot Maker/Creator/Developer packs, which expose the programmable Walabot API device SDK (imaging, radar/target tracking, breathing monitoring, and raw signal data) on Windows, Linux, and Raspberry Pi.
+
+Vayyar has no public web (HTTP) API. Its developer surface is the Walabot device SDK: a local C API with Python/C#/Matlab bindings, documented at api.walabot.com and installed from vendor-hosted SDK installers.
+
+## Docs
+
+- [Walabot API reference (Doxygen)](https://api.walabot.com/): Full Walabot API documentation — imaging features, imaging tasks, code implementation flow, sample applications
+- [Walabot for Makers](https://site.walabot.com/makers/): Developer/Creator/Starter pack capabilities (Imaging API, Radar API, Breathing API, raw signal data)
+- [Getting started](https://site.walabot.com/getting-started/): SDK downloads for Windows, Linux, and Raspberry Pi 3 (v1.2.2), tutorials, FAQ
+- [SDK version archive](https://site.walabot.com/archive/): Older SDK versions (1.0.35, 1.2.0, 1.2.2)
+- [Walabot-Projects on GitHub](https://github.com/Walabot-Projects): 18 first-party example applications built on the Walabot API
+- [Support](https://support.walabot.com/hc/en-us): Walabot help center
+
+## Company
+
+- [Vayyar](https://vayyar.com/): Corporate site — Vayyar Care, automotive, medical, retail, robotics, smart buildings
+- [Vayyar Care](https://vayyar.com/care/): Touchless fall detection for senior living
+- [Quality Policy](https://vayyar.com/quality/): ISO 9001:2015, IATF 16949, ISO 26262
+- [Blog](https://vayyar.com/blog/)
+- [Privacy Policy](https://vayyar.com/privacy-policy/)
+- [Terms of Use](https://vayyar.com/terms-of-use/)
+
+## Catalog artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/apis.yml): APIs.json profile for Vayyar in the API Evangelist network
+- [Packages](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/packages/vayyar-packages.yml): Walabot SDK installers (no public registry packages)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/lifecycle/vayyar-lifecycle.yml): SDK versioning and archive
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/changelog/vayyar-changelog.yml): SDK version history
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/conformance/vayyar-conformance.yml): Published quality/safety certifications
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/security/vayyar-domain-security.yml): TLS/HSTS/DNSSEC/SPF/DMARC probe results

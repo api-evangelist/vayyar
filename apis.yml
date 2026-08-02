@@ -1,9 +1,26 @@
 aid: vayyar
 name: Vayyar
-description: 'Vayyar is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Vayyar Imaging is an Israeli 4D imaging radar company whose radio-frequency
+  sensor-on-chip powers Vayyar Care touchless fall detection for senior
+  living, in-cabin automotive sensing for OEMs, and the Walabot product line.
+  Developers can program the sensor through the Walabot Maker/Creator packs
+  and the Walabot API device SDK — imaging, radar target tracking, breathing
+  monitoring, and raw signal data on Windows, Linux, and Raspberry Pi — though
+  Vayyar publishes no public web API.
 url: https://raw.githubusercontent.com/api-evangelist/vayyar/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vayyar.com/wp-content/uploads/2020/12/vayayrlogo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,16 +29,62 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Deep Tech
+- Sensors
+- Radar
+- Imaging
+- IoT
+- Hardware
+- Elder Care
+- Automotive
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
 common:
 - type: Website
   url: https://vayyar.com/
+- type: DeveloperPortal
+  url: https://site.walabot.com/makers/
+- type: Documentation
+  url: https://api.walabot.com/
+- type: APIReference
+  url: https://api.walabot.com/annotated.html
+- type: GettingStarted
+  url: https://site.walabot.com/getting-started/
+- type: Support
+  url: https://support.walabot.com/hc/en-us
+- type: Blog
+  url: https://vayyar.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/vayyar
+- type: TermsOfService
+  url: https://vayyar.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://vayyar.com/privacy-policy/
+- type: Compliance
+  url: https://vayyar.com/quality/
+- type: Packages
+  url: packages/vayyar-packages.yml
+- type: SDKs
+  url: packages/vayyar-packages.yml
+- type: LLMsTxt
+  url: llms/vayyar-llms.txt
+- type: Conformance
+  url: conformance/vayyar-conformance.yml
+- type: Lifecycle
+  url: lifecycle/vayyar-lifecycle.yml
+- type: ChangeLog
+  url: changelog/vayyar-changelog.yml
+- type: DomainSecurity
+  url: security/vayyar-domain-security.yml

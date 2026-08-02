@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://site.walabot.com/archive/
+scheme: semantic versions with dated installer builds
+current_version: 1.2.2
+notes: >-
+  Vayyar publishes no prose changelog; the Walabot SDK archive page is the
+  authoritative version history for the developer-facing Walabot API. Entries
+  below reflect the published archive (Windows/Linux/Raspberry Pi installers
+  per version). Dates come from the installer filenames.
+entries:
+- version: 1.2.2
+  date: '2018-08-26'
+  breaking: false
+  highlights:
+  - Improved frame rate for both PC and Raspberry Pi (per the getting-started page).
+  - Raspberry Pi installer build dated 2018-09-02.
+- version: 1.2.0
+  date: '2018-05-02'
+  breaking: false
+  highlights:
+  - Windows/Linux/Raspberry Pi SDK release preserved in the public archive.
+- version: 1.0.35
+  date: null
+  breaking: false
+  highlights:
+  - Earliest SDK version retained in the public archive (walabot_maker 1.0.34/1.0.35 era builds).
