@@ -64,10 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vayyar Imaging is an Israeli 4D imaging radar company whose RF sensor-on-chip powers Vayyar Care touchless fall detection for senior living, in-cabin automotive sensing, and the Walabot product line. Developers program the sensor via the Walabot Maker packs and the Walabot API device SDK (imaging, radar target tracking, breathing monitoring, raw signal data) — Vayyar publishes no public web API.
+Vayyar Imaging is an Israeli 4D imaging radar company whose radio-frequency sensor-on-chip powers Vayyar Care touchless fall detection for senior living, in-cabin automotive sensing for OEMs, and the Walabot product line. Developers can program the sensor through the Walabot Maker/Creator packs and the Walabot API device SDK — imaging, radar target tracking, breathing monitoring, and raw signal data on Windows, Linux, and Raspberry Pi — though Vayyar publishes no public web API.
 
-- Website: https://vayyar.com/
-- Developer portal (Walabot for Makers): https://site.walabot.com/makers/
-- Walabot API reference: https://api.walabot.com/
+**Areas:** Company · Deep Tech · Sensors · Radar · Imaging · IoT · Hardware · Elder Care · Automotive
 
-Backed by: bessemer-venture-partners
+## Vayyar on APIs.io
+
+Everything profiled for Vayyar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vayyar/](https://apis.io/providers/vayyar/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vayyar Domain Security](https://apis.io/security/vayyar/vayyar-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://vayyar.com/)
+- [Documentation](https://api.walabot.com/)
+- [Getting started](https://site.walabot.com/getting-started/)
+- [API reference](https://api.walabot.com/annotated.html)
+- [Support](https://support.walabot.com/hc/en-us)
+- [Blog](https://vayyar.com/blog/)
+- [Compliance](https://vayyar.com/quality/)
+- [Terms of service](https://vayyar.com/terms-of-use/)
+- [Privacy policy](https://vayyar.com/privacy-policy/)
+- [GitHub](https://github.com/vayyar)
+
+## API Evangelist rating
+
+**Kin Score 27.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vayyar/](https://apis.io/providers/vayyar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vayyar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vayyar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
